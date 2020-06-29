@@ -20,7 +20,7 @@
         命令五：sudo make install
     3. 执行完命令，OpenCV安装完成
     4. 检查：command + shift + g 到/usr/local/lib目录下查看是有OpenCV库文件
-    ![](https://upload-images.jianshu.io/upload_images/2229471-5c943ad7cfd4deb1.png?imageMogr2/auto-orient/strip|imageView2/2)
+    
 
 ## 第五步：新建项目测试
     1、新建项目（Mac OS->Command Line Tools）
