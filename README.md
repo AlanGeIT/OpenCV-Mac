@@ -3,8 +3,7 @@
 下载地址：http://opencv.org
 ## 第二步：安装Homebrew
     安装文档地址：http://brew.sh/index_zh-cn.html
-    快速安装直接执行以下命令安装：
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    
 ## 第三步：安装CMake（安装好Homebrew之后，可以执行以下命令安装）
     CMake是什么：是一个跨平台编译工具
     第一种安装方式：下载安装（推荐使用下载安装）
@@ -20,6 +19,8 @@
         命令四：make
         命令五：sudo make install
     3. 执行完命令，OpenCV安装完成
+    4. 检查：command + shift + g 到/usr/local/lib目录下查看是有OpenCV库文件
+    ![](https://upload-images.jianshu.io/upload_images/2229471-5c943ad7cfd4deb1.png?imageMogr2/auto-orient/strip|imageView2/2)
 
 ## 第五步：新建项目测试
     1、新建项目（Mac OS->Command Line Tools）
@@ -31,8 +32,8 @@
         Library Search Paths ： /usr/local/lib
     
     3、在项目中新建一个文件夹，选"Add files to ..."，按 command+shift+g 输入路径 /usr/local/lib，把所有的dylib库导入项目
-    4、测试运行（直接Copy代码运行）
-    以下为测试Demo
+    4、测试运行，以下为测试Demo（直接Copy代码运行）
+    
     #include <opencv2/core/core.hpp>
     #include <opencv2/imgcodecs.hpp>
     #include <opencv2/highgui/highgui.hpp>
