@@ -1,18 +1,17 @@
 # Mac配置OpenCV环境
 ## 第一步：下载OpenCV开发包（Mac环境）
-第一步：下载OpenCV开发包（Mac环境）
-    下载地址：http://opencv.org
-第二步：安装Homebrew
+下载地址：http://opencv.org
+## 第二步：安装Homebrew
     安装文档地址：http://brew.sh/index_zh-cn.html
     快速安装直接执行以下命令安装：
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-第三步：安装CMake（安装好Homebrew之后，可以执行以下命令安装）
+## 第三步：安装CMake（安装好Homebrew之后，可以执行以下命令安装）
     CMake是什么：是一个跨平台编译工具
     第一种安装方式：下载安装（推荐使用下载安装）
         下载官方：https://cmake.org/download/
     第二种安装方式：执行命令安装（但是需求提前安装Homebrew）
         brew install cmake
-第四步：安装OpenCV
+## 第四步：安装OpenCV
     1. 进入下载OpenCV解压之后的文件夹
     2. 执行命令（依次执行以下命令进行安装）
         命令一：mkdir build
@@ -22,7 +21,7 @@
         命令五：sudo make install
     3. 执行完命令，OpenCV安装完成
 
-第五步：新建项目测试
+## 第五步：新建项目测试
     第一步：新建项目（Mac OS->Command Line Tools）
         注意：选择C++语言
     第二步：在项目build setting->search path进行配置
