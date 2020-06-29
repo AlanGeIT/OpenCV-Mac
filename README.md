@@ -22,16 +22,16 @@
     3. 执行完命令，OpenCV安装完成
 
 ## 第五步：新建项目测试
-    第一步：新建项目（Mac OS->Command Line Tools）
+    1、新建项目（Mac OS->Command Line Tools）
         注意：选择C++语言
-    第二步：在项目build setting->search path进行配置
+    2、在项目build setting->search path进行配置
         Always search User paths : true
         Framework search path: /usr/local/lib
         Header Search Paths ：/usr/local/include
         Library Search Paths ： /usr/local/lib
     
-    第三步：在项目中新建一个文件夹，选"Add files to ..."，按 command+shift+g 输入路径 /usr/local/lib，把所有的dylib库导入项目
-    第四步：测试运行（直接Copy代码运行）
+    3、在项目中新建一个文件夹，选"Add files to ..."，按 command+shift+g 输入路径 /usr/local/lib，把所有的dylib库导入项目
+    4、测试运行（直接Copy代码运行）
     以下为测试Demo
     #include <opencv2/core/core.hpp>
     #include <opencv2/imgcodecs.hpp>
