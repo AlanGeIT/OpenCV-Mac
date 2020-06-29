@@ -1,3 +1,4 @@
+#OpenCV-Mac配置环境
 第一步：下载OpenCV开发包（Mac环境）
     下载地址：http://opencv.org
 第二步：安装Homebrew
